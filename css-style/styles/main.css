@@ -1,0 +1,45 @@
+/* {} */
+
+html {
+    background-color: firebrick;
+    color: limegreen;
+    font-size: 11pt;
+    font-family: "Wingdings";
+    background-image: url(../images/wah2.webp);
+    background-size: 2rem;
+    background-attachment: fixed;
+}
+
+p {
+    text-align: justify;
+    margin-bottom: 1em;
+}
+
+h1, h2, h3, h4 {
+    color: palevioletred;
+    font-family: "Comic sans";
+    font-size: 2em;
+    font-weight: 200;
+    border-bottom: 1px solid greenyellow;
+}
+
+main {
+    border-style: dotted;
+    width: 80rem;
+    margin: 2rem auto;
+    background-color: rgba(0, 0, 0, 0.551);
+    padding: 8rem;
+    box-shadow: 10px 10px 29px rgba(52, 50, 122, 0.6);
+    backdrop-filter: blur(5px);
+}
+
+
+a {
+    color: salmon;
+
+}
+
+a:hover {
+    color: purple;
+    text-decoration-line: line-through;
+}
